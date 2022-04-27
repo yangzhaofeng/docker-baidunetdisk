@@ -13,7 +13,7 @@ jobs:
         id: image-name
         run: |
           case "$GITHUB_REF" in
-            refs/heads/main)
+            refs/heads/master)
               TAG=latest;;
             *)
               echo "Branch not recognized" >&2
