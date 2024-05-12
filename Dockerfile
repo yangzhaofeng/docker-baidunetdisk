@@ -1,6 +1,6 @@
-FROM debian:bullseye
+FROM debian:bookworm
 
-ENV BAIDUNETDISK_VERSION 4.17.6
+ENV BAIDUNETDISK_VERSION 4.17.7
 
 RUN apt update && apt upgrade -y && \
 	apt install -y procps libgtk-3-0 libnotify4 libnss3 libxss1 xdg-utils libatspi2.0-0 libsecret-1-0 libgbm1 libasound2 libcanberra-gtk-module fonts-arphic-ukai fonts-arphic-uming desktop-file-utils && \
